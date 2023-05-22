@@ -1,7 +1,7 @@
 import openai
 
 openai.api_key = "ENTER-THE-API-KEY-HERE"
-for i in range(999):
+for i in range(1000):
     prompt = input("Enter the prompt:")
     print("loading...")
     res = openai.ChatCompletion.create(
